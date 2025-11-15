@@ -1,4 +1,3 @@
-
 # Basic layout example 基本布局示例
 
 In this section, you're going to learn how to code a basic email template using MJML.
@@ -17,7 +16,7 @@ Looks cool, right? 看起来很酷，对吧？
 
 ## Sections
 
-``` html
+```html
 <mjml>
   <mj-body>
     <!-- Company Header -->
@@ -42,14 +41,16 @@ First, we will implement the skeleton which are the sections. Here, our email is
 
 ## Company Header 公司头部
 
-``` html
+```html
 <!-- Company Header -->
 <mj-section background-color="#f0f0f0">
   <mj-column>
-    <mj-text align="center"
-             font-style="italic"
-             font-size="20px"
-             color="#626262">
+    <mj-text
+      align="center"
+      font-style="italic"
+      font-size="20px"
+      color="#626262"
+    >
       My Company
     </mj-text>
   </mj-column>
@@ -71,24 +72,25 @@ The text padding represents the inner space around the content within the `mj-te
 
 ## Image Header 图片头部
 
-``` html
+```html
 <!-- Image Header -->
-  <mj-section background-url="https://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg"
-              background-size="cover"
-              background-repeat="no-repeat">
-    <mj-column width="600px">
-      <mj-text align="center"
-               color="#fff"
-               font-size="40px"
-               font-family="Helvetica Neue">
-        Slogan here
-      </mj-text>
-      <mj-button background-color="#F63A4D"
-                 href="#">
-        Promotion
-      </mj-button>
-    </mj-column>
-  </mj-section>
+<mj-section
+  background-url="https://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg"
+  background-size="cover"
+  background-repeat="no-repeat"
+>
+  <mj-column width="600px">
+    <mj-text
+      align="center"
+      color="#fff"
+      font-size="40px"
+      font-family="Helvetica Neue"
+    >
+      Slogan here
+    </mj-text>
+    <mj-button background-color="#F63A4D" href="#"> Promotion </mj-button>
+  </mj-column>
+</mj-section>
 ```
 
 Next comes a section with a background image and a block of text (representing the company slogan) and a button pointing to a page listing all the company promotions.
@@ -105,28 +107,29 @@ In order to have the background rendered full-width in the column, set the colum
 
 ## Introduction Text 介绍文本
 
-``` html
-
+```html
 <!-- Intro text -->
-  <mj-section background-color="#fafafa">
-    <mj-column width="400px">
-      <mj-text font-style="italic"
-               font-size="20px"
-               font-family="Helvetica Neue"
-               color="#626262">
-        My Awesome Text
-      </mj-text>
-      <mj-text color="#525252">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
-      </mj-text>
+<mj-section background-color="#fafafa">
+  <mj-column width="400px">
+    <mj-text
+      font-style="italic"
+      font-size="20px"
+      font-family="Helvetica Neue"
+      color="#626262"
+    >
+      My Awesome Text
+    </mj-text>
+    <mj-text color="#525252">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim
+      eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras
+      id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh.
+      Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis
+      faucibus.
+    </mj-text>
 
-      <mj-button background-color="#F45E43"
-                 href="#">
-        Learn more
-      </mj-button>
-    </mj-column>
-  </mj-section>
-
+    <mj-button background-color="#F45E43" href="#"> Learn more </mj-button>
+  </mj-column>
+</mj-section>
 ```
 
 The introduction text will consist of a title, a main text and a button.
@@ -136,26 +139,31 @@ The title is a regular `mj-text` that can be customized.
 
 ## 2 Columns Section 2列部分
 
-``` html
-
+```html
 <!-- Side image -->
 <mj-section background-color="white">
   <!-- Left image -->
   <mj-column>
-    <mj-image width="200px"
-              src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
+    <mj-image
+      width="200px"
+      src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg"
+    />
   </mj-column>
   <!-- right paragraph -->
   <mj-column>
-    <mj-text font-style="italic"
-             font-size="20px"
-             font-family="Helvetica Neue"
-             color="#626262">
-        Find amazing places
-      </mj-text>
-      <mj-text color="#525252">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus.
-      </mj-text>
+    <mj-text
+      font-style="italic"
+      font-size="20px"
+      font-family="Helvetica Neue"
+      color="#626262"
+    >
+      Find amazing places
+    </mj-text>
+    <mj-text color="#525252">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim
+      eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras
+      id dui lectus. Vestibulum sed finibus lectus.
+    </mj-text>
   </mj-column>
 </mj-section>
 ```
@@ -172,7 +180,7 @@ For the text part, you are going to need two `<mj-text>`s like above. One with a
 
 ## Icons 图标
 
-``` html
+```html
 <!-- Icons -->
 <mj-section background-color="#fbfbfb">
   <mj-column>
@@ -193,7 +201,7 @@ This section is a 3-columns-based section. Please notice you can make the paddin
 
 ## Social Icons 社交图标
 
-``` html
+```html
 <mj-section background-color="#e7e7e7">
   <mj-column>
     <mj-social>

@@ -4,7 +4,7 @@ MJML is a markup language designed to reduce the pain of coding a responsive ema
 
 MJML 是一种标记语言，旨在简化响应式电子邮件的编码过程。其语义化的语法使其简单易用，丰富的标准组件库可加快开发速度并减轻电子邮件代码库的负担。MJML 的开源引擎可生成符合最佳实践的高质量响应式 HTML。
 
-## Overview  概述
+## Overview 概述
 
 MJML rolls up all of what Mailjet has learned about HTML email design over the past few years and abstracts the whole layer of complexity related to responsive email design.
 
@@ -25,9 +25,14 @@ MJML 的设计以响应式设计为核心。它提供的抽象层确保您始终
   <mj-body>
     <mj-section>
       <mj-column>
-        <mj-image width="100px" src="https://mjml.io/assets/img/logo-small.png"></mj-image>
+        <mj-image
+          width="100px"
+          src="https://mjml.io/assets/img/logo-small.png"
+        ></mj-image>
         <mj-divider border-color="#F45E43"></mj-divider>
-        <mj-text font-size="20px" color="#F45E43" font-family="helvetica">Hello World</mj-text>
+        <mj-text font-size="20px" color="#F45E43" font-family="helvetica"
+          >Hello World</mj-text
+        >
       </mj-column>
     </mj-section>
   </mj-body>
