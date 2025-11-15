@@ -1,4 +1,4 @@
-# Getting Started 快速入门
+# 快速入门
 
 This is a responsive email
 

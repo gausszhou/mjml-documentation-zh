@@ -1,4 +1,4 @@
-# Basic layout example 基本布局示例
+# 基本布局示例
 
 In this section, you're going to learn how to code a basic email template using MJML.
 
@@ -14,7 +14,7 @@ Here is the final render we want to end with:
 
 Looks cool, right? 看起来很酷，对吧？
 
-## Sections
+## Sections 章节
 
 ```html
 <mjml>

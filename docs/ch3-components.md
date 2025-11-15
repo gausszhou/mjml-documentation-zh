@@ -1,4 +1,4 @@
-# Components 组件
+# 组件
 
 Components are the core of MJML. A component is an abstraction of a more complex email-responsive HTML layout. It exposes attributes, enabling you to interact with the final component visual aspect.
 
