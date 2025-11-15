@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "format": "prettier --write docs"
   },
   "devDependencies": {
     "prettier": "^3.6.2",
