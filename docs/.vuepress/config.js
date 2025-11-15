@@ -17,6 +17,7 @@ module.exports = {
     sidebar: {
       "/": [
         "",
+        "ch1-getting-started.md"
       ],
     },
   },
