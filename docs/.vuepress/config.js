@@ -18,7 +18,8 @@ module.exports = {
       "/": [
         "",
         "ch1-getting-started.md",
-        "ch2-basic-layout-example.md"
+        "ch2-basic-layout-example.md",
+        "ch3-components.md",
       ],
     },
   },
