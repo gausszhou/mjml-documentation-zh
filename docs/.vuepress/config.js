@@ -20,6 +20,7 @@ module.exports = {
         "ch1-getting-started.md",
         "ch2-basic-layout-example.md",
         "ch3-components.md",
+        "ch4-standard-head-components.md",
       ],
     },
   },
