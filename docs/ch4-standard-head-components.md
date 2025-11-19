@@ -44,9 +44,9 @@ This tag allows you to control on which breakpoint the layout should go desktop/
 
 此标签允许您控制布局在哪个断点处应切换到桌面/移动端。
 
-| 属性  | 单位 | 描述 | 默认值 |
-| --- |  --- | --- | --- |
-| width  | px  | 断点值 | n/a |
+| 属性  | 单位 | 描述   | 默认值 |
+| ----- | ---- | ------ | ------ |
+| width | px   | 断点值 | n/a    |
 
 ```html
 <mjml>
@@ -81,9 +81,7 @@ This tag allows you to add custom attributes on any html tag of the generated ht
   <mj-body>
     <mj-section>
       <mj-column>
-        <mj-text css-class="custom">
-          Hello World!
-        </mj-text>
+        <mj-text css-class="custom"> Hello World! </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
@@ -139,8 +137,13 @@ Here is an example showing the use in combination with the css-class attribute, 
     <mj-attributes>
       <mj-class name="mjclass" color="green" font-size="30px" />
     </mj-attributes>
-    <mj-style inline="inline"> .blue-text div { color: blue !important; } </mj-style>
-    <mj-style> .red-text div { color: red !important; text-decoration: underline !important; } </mj-style>
+    <mj-style inline="inline">
+      .blue-text div { color: blue !important; }
+    </mj-style>
+    <mj-style>
+      .red-text div { color: red !important; text-decoration: underline
+      !important; }
+    </mj-style>
   </mj-head>
   <mj-body>
     <mj-section>
