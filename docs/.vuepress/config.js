@@ -21,6 +21,7 @@ module.exports = {
         "ch2-basic-layout-example.md",
         "ch3-components.md",
         "ch4-standard-head-components.md",
+        "ch5-standard-body-components.md",
       ],
     },
   },
